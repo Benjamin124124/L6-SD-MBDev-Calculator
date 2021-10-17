@@ -1,0 +1,1 @@
+This is an Android calculator app created from scratch

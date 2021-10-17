@@ -1,0 +1,15 @@
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.deps.json
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.dll
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\ref\Calculator.dll
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.pdb
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.csproj.AssemblyReference.cache
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfoInputs.cache
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfo.cs
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.csproj.CoreCompileInputs.cache
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.dll
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\ref\Calculator.dll
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.pdb
