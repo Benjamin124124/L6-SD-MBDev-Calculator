@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mPYP8e1fLLfK/jazs4jg8z8E2o5M+GgMm17u9Yeg3VsMdsQSOCryo38a4Mx32bmupY1VFVING8ayyjJZ0RXVrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\benat\\Documents\\TechtoriumThings\\MobileAppDevelopment\\L6-SD-MBDev-Calculator\\Calculator\\Calculator\\Calculator.iOS\\Calculator.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\benat\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
