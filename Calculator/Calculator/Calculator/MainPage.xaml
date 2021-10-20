@@ -41,9 +41,9 @@
                    HorizontalTextAlignment="End" VerticalTextAlignment="Center" 
                    LineBreakMode="NoWrap" Grid.ColumnSpan="4"/>
 
-        <Button Text="C" Grid.Row="1" Grid.Column="0" Style="{StaticResource infostyle}" BackgroundColor="DarkRed" FontSize="20" Clicked="OnClear"/>
-        <Button Text="­­­­√" Grid.Row="1" Grid.Column="1" Style="{StaticResource infostyle}" BackgroundColor="#474747" FontSize="20" Clicked="OnSquareRoot"/>
-        <Button Text="%" Grid.Row="1" Grid.Column="2" Style="{StaticResource infostyle}" BackgroundColor="#474747" FontSize="20" Clicked="OnPercentage"/>
+        <Button Text="C" Grid.Row="1" Grid.Column="0" Style="{StaticResource infostyle}" BackgroundColor="DarkRed" Clicked="OnClear"/>
+        <Button Text="­­­­√" Grid.Row="1" Grid.Column="1" Style="{StaticResource infostyle}" BackgroundColor="#474747" Clicked="OnSquareRoot"/>
+        <Button Text="%" Grid.Row="1" Grid.Column="2" Style="{StaticResource infostyle}" BackgroundColor="#474747" Clicked="OnPercentage"/>
         
         <Button Text="7" Grid.Row="2" Grid.Column="0" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
         <Button Text="8" Grid.Row="2" Grid.Column="1" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
