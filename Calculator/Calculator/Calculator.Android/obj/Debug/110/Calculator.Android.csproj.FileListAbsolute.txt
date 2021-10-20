@@ -33,7 +33,6 @@ E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Androi
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\R.txt
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\R.cs.flag
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\Calculator.Android.csproj.CoreCompileInputs.cache
-E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\Calculator.Android.csproj.CopyComplete
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\Calculator.Android.dll
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\Calculator.Android.pdb
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\android\bin\com.companyname.calculator.apk

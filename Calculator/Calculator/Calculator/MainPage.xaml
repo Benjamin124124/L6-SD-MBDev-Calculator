@@ -2,28 +2,68 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Calculator.MainPage">
+    
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <OnPlatform.Android>0,20,0,0</OnPlatform.Android>
+        </OnPlatform>
+    </ContentPage.Padding>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="infostyle" TargetType="Button">
+                <Setter Property="WidthRequest" Value="60"/>
+                <Setter Property="HeightRequest" Value="60"/>
+                <Setter Property="BorderRadius" Value="30"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="35"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <Grid Padding="5,0" RowSpacing="5" ColumnSpacing="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Button Text="C" FontSize="20" Padding="24,18"/>
-        <Button Text="1" FontSize="20" Padding="24"/>
-        <Button Text="2" FontSize="20"/>
-        <Button Text="3" FontSize="20"/>
-        <Button Text="4" FontSize="20"/>
-        <Button Text="5" FontSize="20"/>
-        <Button Text="6" FontSize="20"/>
-        <Button Text="7" FontSize="20"/>
-        <Button Text="8" FontSize="20"/>
-        <Button Text="9" FontSize="20"/>
-        <Button Text="0" FontSize="20"/>
-        <Button Text="+" FontSize="20"/>
-        <Button Text="-" FontSize="20"/>
-        <Button Text="×" FontSize="20"/>
-        <Button Text="÷" FontSize="20"/>
-        <Button Text="." FontSize="20"/>
-        <Button Text="=" FontSize="20"/>
-    </StackLayout>
+        <Label x:Name="resultText" FontSize="48" FontAttributes="Bold" 
+                   BackgroundColor="#000000" Text="0" TextColor="#FFFFFF" 
+                   HorizontalTextAlignment="End" VerticalTextAlignment="Center" 
+                   LineBreakMode="NoWrap" Grid.ColumnSpan="4"/>
 
+        <Button Text="C" Grid.Row="1" Grid.Column="0" Style="{StaticResource infostyle}" BackgroundColor="DarkRed" FontSize="20" Clicked="OnClear"/>
+        <Button Text="­­­­√" Grid.Row="1" Grid.Column="1" Style="{StaticResource infostyle}" BackgroundColor="#474747" FontSize="20" Clicked="OnSquareRoot"/>
+        <Button Text="%" Grid.Row="1" Grid.Column="2" Style="{StaticResource infostyle}" BackgroundColor="#474747" FontSize="20" Clicked="OnPercentage"/>
+        
+        <Button Text="7" Grid.Row="2" Grid.Column="0" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="8" Grid.Row="2" Grid.Column="1" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="9" Grid.Row="2" Grid.Column="2" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+
+        <Button Text="4" Grid.Row="3" Grid.Column="0" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="5" Grid.Row="3" Grid.Column="1" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="6" Grid.Row="3" Grid.Column="2" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+
+        <Button Text="1" Grid.Row="4" Grid.Column="0" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="2" Grid.Row="4" Grid.Column="1" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="3" Grid.Row="4" Grid.Column="2" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+
+        <Button Text="0" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="#2b2b2b" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="." Grid.Row="5" Grid.Column="2" BackgroundColor="#474747" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+
+        <Button Text="+" Grid.Row="4" Grid.Column="3" BackgroundColor="#474747" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="-" Grid.Row="3" Grid.Column="3" BackgroundColor="#474747" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="×" Grid.Row="2" Grid.Column="3" BackgroundColor="#474747" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="÷" Grid.Row="1" Grid.Column="3" BackgroundColor="#474747" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+        <Button Text="=" Grid.Row="5" Grid.Column="3" BackgroundColor="#474747" Clicked="OnSelectNumber" Style="{StaticResource infostyle}"/>
+    </Grid>
 </ContentPage>
