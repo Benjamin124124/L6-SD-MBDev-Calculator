@@ -21,7 +21,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     
-    <Grid Padding="5,0" RowSpacing="5" ColumnSpacing="5">
+    <Grid Padding="5,0" RowSpacing="5" ColumnSpacing="5" BackgroundColor="#1b1b1b">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
