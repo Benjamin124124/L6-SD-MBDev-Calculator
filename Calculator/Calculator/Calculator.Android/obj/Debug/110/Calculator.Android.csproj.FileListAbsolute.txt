@@ -573,3 +573,4 @@ E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Androi
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+E:\Documents\Techtorium Stuff\Calculator\Calculator\Calculator\Calculator.Android\obj\Debug\110\Calculator.Android.csproj.CopyComplete

@@ -25,16 +25,13 @@ namespace Calculator
             Button button = (Button)sender;
 
             string pressed = button.Text;
-            //Validation
-
-            this.resultText.Text += pressed;
 
             if (this.resultText.Text == "0" || currentState < 0)
             {
                 this.resultText.Text = "";
                 if (currentState < 0)
                 {
-                    currentState *= 1;
+                    currentState *= -1;
                 }
             }
 
