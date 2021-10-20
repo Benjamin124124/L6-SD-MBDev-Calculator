@@ -20,10 +20,9 @@ namespace Calculator
             OnClear(this, null);
         }
 
-        void OnSelectNumber(object sender, EventArgs e)
+        void OnSelectNumber(object sender, EventArgs e)// Numbers
         {
             Button button = (Button)sender;
-
             string pressed = button.Text;
 
             if (this.resultText.Text == "0" || currentState < 0)
@@ -52,7 +51,7 @@ namespace Calculator
             }
         }
 
-        void OnSelectOperator(object sender, EventArgs e)
+        void OnSelectOperator(object sender, EventArgs e)// Operators
         {
             currentState = -2;
             Button button = (Button)sender;
@@ -60,7 +59,7 @@ namespace Calculator
             myoperator = pressed;
         }
 
-        void OnClear(object sender, EventArgs e)
+        void OnClear(object sender, EventArgs e)// Clear
         {
             firstNumber = 0;
             secondNumber = 0;
@@ -68,7 +67,7 @@ namespace Calculator
             this.resultText.Text = "0";
         }
 
-        void OnPercentage(object sender, EventArgs e)
+        void OnPercentage(object sender, EventArgs e)// Percentage button
         {
             if ((currentState == -1) || (currentState == 1))
             {
@@ -79,7 +78,7 @@ namespace Calculator
             }
         }
 
-        void OnCalculate(object sender, EventArgs e)
+        void OnCalculate(object sender, EventArgs e)// Equals
         {
             if (currentState == 2)
             {
@@ -90,22 +89,11 @@ namespace Calculator
             }
         }
 
-        void OnSquareRoot(object sender, EventArgs e)
+        void OnSquareRoot(object sender, EventArgs e)// Root
         {
             if ((currentState == -1) || (currentState == 1))
             {
                 var result = Math.Sqrt(firstNumber);
-                this.resultText.Text = result.ToString();
-                firstNumber = result;
-                currentState = -1;
-            }
-        }
-
-        private void SquareClicked(object sender, EventArgs e)
-        {
-            if ((currentState == -1) || (currentState == 1))
-            {
-                var result = firstNumber * firstNumber;
                 this.resultText.Text = result.ToString();
                 firstNumber = result;
                 currentState = -1;
