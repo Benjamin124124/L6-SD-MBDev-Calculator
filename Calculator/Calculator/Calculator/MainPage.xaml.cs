@@ -99,5 +99,22 @@ namespace Calculator
                 currentState = -1;
             }
         }
+
+        void OnDecimal(object sender, EventArgs e)// Decimal point
+        {
+            Button button = (Button)sender;
+
+            if (this.resultText.Text == "0" || currentState < 0)
+            {
+                this.resultText.Text = "";
+                if (currentState < 0)
+                {
+                    currentState *= -1;
+                }
+            }
+            
+            this.resultText.Text += ".";
+
+        }
     }
 }
